@@ -24,6 +24,12 @@
         transform: skewX(0);
     }
 
+    &__moyo {
+        width: 140%;
+        height: 90%;
+        backface-visibility: hidden;
+    }
+
     &__shape {
         width: 15rem;
         height: 15rem;
