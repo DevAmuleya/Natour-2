@@ -570,6 +570,14 @@ body {
 .form__group:not(:last-child) {
   margin-bottom: 2rem;
 }
+@media only screen and (max-width: 37.5em) {
+  .form .btn-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
 .form__input {
   font-size: 1.5rem;
   color: inherit;
@@ -866,9 +874,9 @@ body {
 .footer__list {
   list-style: none;
 }
-@media only screen and (max-width: 56.25em) {
+@media only screen and (max-width: 37.5em) {
   .footer__list {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 }
 .footer__item {

@@ -10,7 +10,7 @@
     .btn-center {
 
         @include respond(phone) {
-            margin: 0 3rem;
+            @include absCenter
         }
            
     }
