@@ -2,8 +2,6 @@
 @use '../abstracts/mixins' as *;
 
 .navigation {
-    backface-visibility: hidden;
-
     &__checkbox {
         display: none;
     }
@@ -33,7 +31,6 @@
     }
 
     &__background {
-        backface-visibility: hidden;
         height: 6rem;
         width: 6rem;
         border-radius: 50%;

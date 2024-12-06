@@ -2,7 +2,7 @@
 @use '../abstracts/mixins' as *;
 
 .header {
-    height: calc(95vh - 3rem);
+    height: 85vh;
     background-image: linear-gradient(
         to right bottom,
         rgba($color-primary-light, 0.8),
@@ -11,8 +11,6 @@
     background-size: cover;
     background-position: top;
     position: relative;
-    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
-    
 
     @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
         -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
@@ -57,9 +55,5 @@
         @include absCenter
     }
 
-}
-
-.header-1 {
-    margin-bottom: 20rem;
 }
 

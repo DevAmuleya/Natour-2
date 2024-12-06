@@ -12,13 +12,7 @@
 
     @include respond(phone) {
         margin-top: -35vh;
-        padding-left: .4rem;
-        padding-right: .4rem;
-
     }
-    // @include respond(phone) {
-    //     margin-top: -25vh;
-    // }
 }
 
 .section-features {
